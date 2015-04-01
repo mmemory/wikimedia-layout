@@ -4,4 +4,63 @@ html, body {
     margin: 0;
 }
 
+.main--header {
+    width: 75%;
+    margin: 50px auto;
+}
+
+.main--header p, .main--header h1, .main--footer p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.main--header h1 {
+    float: right;
+    font-size: 24px;
+}
+
+.main--header a, .main--footer a {
+    text-decoration: none;
+    color: #0645AD;
+}
+
+.main--header a:hover, .main--footer a:hover {
+    text-decoration: underline;
+}
+
+.container--logoContainer {
+    width: 83%;
+    border-bottom: solid 1px black;
+    margin: 100px auto 0 auto;
+}
+
+.logo--row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.logo--container {
+    margin: 10px auto;
+    display: inline-block;
+}
+
+.main--footer {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.main--footer a {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+.main--footer p {
+    font-size: 15px;
+}
+
+
 
